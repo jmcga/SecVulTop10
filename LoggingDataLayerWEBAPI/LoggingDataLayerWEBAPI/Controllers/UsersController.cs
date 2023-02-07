@@ -80,6 +80,17 @@ namespace LoggingDataLayerWEBAPI.Controllers
 
         /* ----- User ----- */
 
+        // GET: api/User/GetUser/<username>
+        [HttpGet("{username}")]
+        public async Task<ActionResult<int>> SearchUserName(string username)
+        {
+            _logger.LogInformation("GetUser({@username}) called", username);
+
+            int rowsAffected = await _context.Database.ExecuteSqlRawAsync("SELECT * FROM Users WHERE UserName like '%" + username + "%'");
+
+            return rowsAffected;
+        }
+
         // GET: api/User/GetUser/5
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)

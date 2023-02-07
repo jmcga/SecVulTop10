@@ -1,0 +1,498 @@
+{
+	"info": {
+		"_postman_id": "8afaea5a-4d32-4c4c-8428-c07904d0d173",
+		"name": "FLVSMongoDBPOC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "repository/GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/GetAll",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"GetAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/GetAllAsync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/GetAllAsync",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"GetAllAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Get/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Get",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/GetAsync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Get/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Get",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/Find",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Find/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Find",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/FindAsync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/FindAsync/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"FindAsync",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/FindAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/FindAll/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"FindAll",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/FindAll2/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/FindAll2/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"FindAll2",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/FindAllAsync/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/FindAllAsync/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"FindAllAsync",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/FindAllQuery/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/FindAllQuery/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"FindAllQuery",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/Add/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Add/2",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Add",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/AddAsync/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/AddAsync/5",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"AddAsync",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/Update",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Update/3",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Update",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/UpdateAsync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/UpdateAsync/5",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"UpdateAsync",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/Delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Delete/5",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Delete",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/DeleteAsync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/DeleteAsync/6",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"DeleteAsync",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/Count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/Count",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"Count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "repository/CountAsync",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/repository/CountAsync",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"repository",
+						"CountAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subject/GetSubject",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{api_url}}/api/subject/GetSubject/1",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"GetSubject",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subject/AddSubject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 999,\r\n    \"Description\": \"Description AddSubject 100\",\r\n    \"Subject\": \"Subject AddSubject 100\",\r\n    \"SubjectID\": 999\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api_url}}/api/subject/AddSubject/100",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"AddSubject",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subject/UpdateSubject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 3,\r\n    \"Description\": \"Description AddSubject 300\",\r\n    \"Subject\": \"Subject AddSubject 300\",\r\n    \"SubjectID\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api_url}}/api/subject/UpdateSubject/300",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"UpdateSubject",
+						"300"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subject/DeleteSubject",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/subject/DeleteSubject/3",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"subject",
+						"DeleteSubject",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
