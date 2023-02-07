@@ -46,7 +46,8 @@ namespace LoggingDataLayerWEBAPI
             services.AddHttpClient(Microsoft.Extensions.Options.Options.DefaultName)
                 .AddCorrelationIdForwarding();
 
-            services.AddControllers();
+            services.AddControllersWithViews();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "LoggingDataLayerWEBAPI", Version = "v1" });
@@ -62,8 +63,6 @@ namespace LoggingDataLayerWEBAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LoggingDataLayerWEBAPI"));
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

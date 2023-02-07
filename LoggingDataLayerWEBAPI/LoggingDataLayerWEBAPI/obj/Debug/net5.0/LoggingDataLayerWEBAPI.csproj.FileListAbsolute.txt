@@ -444,3 +444,13 @@ C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\
 C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\ref\LoggingDataLayerWEBAPI.dll
 C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.pdb
 C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.genruntimeconfig.cache
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\bin\Debug\net5.0\LoggingDataLayerWEBAPI.Views.dll
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\bin\Debug\net5.0\LoggingDataLayerWEBAPI.Views.pdb
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.RazorAssemblyInfo.cache
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.RazorAssemblyInfo.cs
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.TagHelpers.input.cache
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.TagHelpers.output.cache
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.RazorCoreGenerate.cache
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.RazorTargetAssemblyInfo.cs
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\LoggingDataLayerWEBAPI.Views.pdb
+C:\Progs\C#\SecVulTop10\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs

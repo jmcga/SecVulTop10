@@ -27,6 +27,12 @@ namespace LoggingDataLayerWEBAPI.Controllers
         }
 
 
+        [HttpGet]
+        public string Index()
+        {
+            return "Welcome to GoodBank!";
+        }
+        
         /* ----- Users ----- */
 
         // GET: api/Users/GetUsers

