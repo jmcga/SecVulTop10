@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewRelicLoggingPOC", "NewRelicLoggingPOC\NewRelicLoggingPOC.csproj", "{CA65FA83-A042-42EE-9A57-91EDE74134E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingBusinessDomainWEBAPI", "LoggingBusinessDomainWEBAPI\LoggingBusinessDomainWEBAPI\LoggingBusinessDomainWEBAPI.csproj", "{3AE41C7E-2734-40BB-A070-506544513D71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingDataLayerWEBAPI", "LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI\LoggingDataLayerWEBAPI.csproj", "{A2E71347-AFD5-4A87-B290-C94CA15B36F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB483712-9EAF-498B-A8AC-E470E8549AA8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{AA39A34A-F96F-4AFC-80E3-5DF7155A7D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{01F14F17-CDBC-450A-B548-114922817AC8}"
+	ProjectSection(SolutionItems) = preProject
+		Release\Database\Create Database.SQL = Release\Database\Create Database.SQL
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{F2827144-54C6-42B5-9CAC-3E3A049F6856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA65FA83-A042-42EE-9A57-91EDE74134E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA65FA83-A042-42EE-9A57-91EDE74134E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA65FA83-A042-42EE-9A57-91EDE74134E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA65FA83-A042-42EE-9A57-91EDE74134E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE41C7E-2734-40BB-A070-506544513D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE41C7E-2734-40BB-A070-506544513D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE41C7E-2734-40BB-A070-506544513D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE41C7E-2734-40BB-A070-506544513D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E71347-AFD5-4A87-B290-C94CA15B36F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E71347-AFD5-4A87-B290-C94CA15B36F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E71347-AFD5-4A87-B290-C94CA15B36F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E71347-AFD5-4A87-B290-C94CA15B36F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA39A34A-F96F-4AFC-80E3-5DF7155A7D15} = {DB483712-9EAF-498B-A8AC-E470E8549AA8}
+		{01F14F17-CDBC-450A-B548-114922817AC8} = {AA39A34A-F96F-4AFC-80E3-5DF7155A7D15}
+		{F2827144-54C6-42B5-9CAC-3E3A049F6856} = {AA39A34A-F96F-4AFC-80E3-5DF7155A7D15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01927AAB-3805-49D4-B272-0F75C51441B7}
+	EndGlobalSection
+EndGlobal

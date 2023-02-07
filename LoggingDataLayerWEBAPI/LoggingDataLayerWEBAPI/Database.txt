@@ -1,0 +1,3 @@
+﻿# Package Manager Console
+
+Scaffold-DbContext "Server=10.80.20.18;Database=LoggingPOC;Trusted_Connection=False;user=sa;password=DevDeploy08;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
